@@ -13,7 +13,7 @@ class Config(object):
     """_summary_
 
     Returns:
-                    _type_: _description_
+        _type_: _description_
     """
     LANGUAGES = ['en', 'fr']
     BABEL_DEFAULT_LOCALE = 'en'
@@ -57,7 +57,7 @@ def get_locale():
     """_summary_
 
     Returns:
-                    _type_: _description_
+        _type_: _description_
     """
     # Locale from URL parameters
     locale = request.args.get('locale')
